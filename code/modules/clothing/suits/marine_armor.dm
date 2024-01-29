@@ -282,7 +282,7 @@
 	name = "\improper XM4 pattern intelligence officer armor"
 	uniform_restricted = list(/obj/item/clothing/under/marine/officer, /obj/item/clothing/under/rank/qm_suit, /obj/item/clothing/under/marine/officer/intel)
 	specialty = "XM4 pattern intel"
-	// Integral Motion Detector
+	//XM4 Integral Motion Detector
 	actions_types = list(/datum/action/item_action/toggle, /datum/action/item_action/intel/toggle_motion_detector)
 	var/motion_detector = 0
 	var/obj/item/device/motiondetector/xm4/MD
@@ -353,7 +353,6 @@
 		START_PROCESSING(SSobj, src)
 	if(!motion_detector)
 		STOP_PROCESSING(SSobj, src)
-//End XM4 Intel Armor
 
 /obj/item/clothing/suit/storage/marine/MP
 	name = "\improper M2 pattern MP armor"

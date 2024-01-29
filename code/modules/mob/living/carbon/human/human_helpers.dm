@@ -247,6 +247,7 @@
 				var/datum/action/item_action/smartgun/toggle_motion_detector/TMD = locate(/datum/action/item_action/smartgun/toggle_motion_detector) in sg.actions
 				TMD.update_icon()
 				sg.motion_detector()
+
 	for(var/i in cont)
 		if(istype(i, /obj/item/device/assembly/prox_sensor))
 			var/obj/item/device/assembly/prox_sensor/prox = i
