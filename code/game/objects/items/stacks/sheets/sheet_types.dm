@@ -58,9 +58,9 @@ GLOBAL_LIST_INIT_TYPED(metal_recipes, /datum/stack_recipe, list ( \
 ))
 
 /obj/item/stack/sheet/metal
-	name = "metal sheets"
-	desc = "Sheets made out of metal. They have been dubbed Metal Sheets."
+	name = "metal sheet"
 	singular_name = "metal sheet"
+	desc = "Sheets made out of metal. They have been dubbed Metal Sheets."
 	icon_state = "sheet-metal"
 	item_state = "sheet-metal"
 	matter = list("metal" = 3750)
@@ -69,7 +69,6 @@ GLOBAL_LIST_INIT_TYPED(metal_recipes, /datum/stack_recipe, list ( \
 	amount_sprites = TRUE
 	sheettype = "metal"
 	stack_id = "metal"
-
 
 /obj/item/stack/sheet/metal/small_stack
 	amount = STACK_10
